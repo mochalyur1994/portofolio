@@ -3,4 +3,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/mochalyu/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp portofolio-details.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
+    - /bin/cp changelog.txt $DEPLOYPATH
+    - /bin/cp Readme.txt $DEPLOYPATH
+    
+    
